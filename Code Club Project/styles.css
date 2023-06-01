@@ -1,0 +1,56 @@
+nav {
+    border-style: solid;
+    border-color: #FB217D;
+    border-width: 0.2em;
+    border-radius: 2em;
+    padding: 1em;
+    font-family: 'Nunito', sans-serif;
+}
+nav a {
+    padding-left: 4em;
+    color: #FB217D;
+    font-family: 'Roboto Flex', sans-serif;
+}
+.row {
+    display:flex;
+}
+.left-column {
+    height: 40vh;
+    flex: 60%;
+    padding-top: 2em;
+}
+.right-column {
+    height: 40vh;
+    flex: 40%;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+#right-col-home {
+    background-image: url(./images/friends.png);
+}
+#right-col-about {
+    background-image: url(./images/fun.png);
+}
+#right-col-members {
+    background-image: url(./images/selfie.png);
+}
+.main-heading {
+    font-family: 'Nunito',
+    sans-serif;
+    font-size: 4em;
+    color: #FB217D;
+}
+#content-area {
+    font-family: 'Roboto Flex', sans-serif;
+}
+#layout-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#password-area {
+    margin-top: 3%;
+    margin-left: 2%;
+}
